@@ -6,8 +6,10 @@ import { useDispatch } from "react-redux";
 import { handleToggleMenu } from "../../Redux/Store/ReduxSlice/ToggleMenuSlice";
 
 
+
 const Navbar = () => {
     const dispatch = useDispatch();
+
     
    
   return (
@@ -48,16 +50,16 @@ const Navbar = () => {
           </div>
          <div className="flex items-center gap-3">
          <FaUserDoctor size={24} className=" text-blue-500 font-bold " />{" "}
-         <span className="font-semibold text-xl">DocBook BD</span>
+         <span className="font-semibold sm:text-xl">DocBook BD</span>
          </div>
         </div>
         <div className="flex items-center  gap-5">
           <div className="flex items-center gap-3">
           
-            <MdNotificationsActive size={32} />
+            <MdNotificationsActive  className="sm:text-3xl" />
           </div>
 
-          <button className="btn  bg-blue-500 text-white font-semibold text-lg">
+          <button className="btn  bg-blue-500 text-white font-semibold sm:text-lg">
             Login
           </button>
 

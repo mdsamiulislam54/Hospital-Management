@@ -4,7 +4,7 @@ import Doctor from '../../assets/9439123.png'
 import { NavLink } from 'react-router'
 import { MdDashboard } from 'react-icons/md'
 import { RiHome2Fill } from 'react-icons/ri'
-import { FaRegCalendarDays, FaUserDoctor } from 'react-icons/fa6'
+import { FaRegCalendarDays, FaUser, FaUserDoctor } from 'react-icons/fa6'
 import { FaPlusSquare } from 'react-icons/fa'
 import { TbReport } from 'react-icons/tb'
 import { IoIosSettings } from 'react-icons/io'
@@ -64,6 +64,12 @@ const Sidebar = () => {
           to="/settings"
         >
           <IoIosSettings /> Settings
+        </NavLink>
+        <NavLink
+          className=" btn btn-outline flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:bg-white transition"
+          to="/login"
+        >
+          <FaUser /> Sing In / Login
         </NavLink>
       </ul>
     </div>

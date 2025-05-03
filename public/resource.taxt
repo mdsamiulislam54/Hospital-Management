@@ -1,0 +1,15 @@
+import { motion } from "framer-motion";
+
+export default function AnimatedSection() {
+  return (
+    <motion.div
+      initial={{ x: -300, opacity: 0 }}
+      whileInView={{ x: 0, opacity: 1 }}
+      transition={{ duration: 0.7, ease: "easeOut" }}
+      viewport={{ once: true, amount: 0.5 }} // কতটুকু viewport এ আসলে animate হবে
+      className="w-full h-64 bg-blue-500 text-white flex items-center justify-center text-3xl"
+    >
+      Scroll kore amar kache aiso!
+    </motion.div>
+  );
+}

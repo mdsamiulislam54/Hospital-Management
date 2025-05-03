@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 
 const Root = () => {
   const isOpen = useSelector((state) => state.sideMenu.isOpen);
+  
   return (
     <div>
       <nav className="md:hidden max-md:block py-4 shadow bg-gradient-to-r to-blue-50 relative">
@@ -17,16 +18,16 @@ const Root = () => {
       </nav>
       <main className="flex flex-1   relative overflow-hidden ">
         <motion.div
-          initial={{ x: -250 }}
-          animate={{x:isOpen ?  -350:0}}
-          transition={{duration:0.3}}
-          className={`w-70  md:block bg-blue-500 h-full overflow-y-auto fixed ${
-            isOpen ? "hidden" : "block transition-all duration-500"
+          initial={{ x: -350 }}
+          animate={{x:isOpen ? -350:0}}
+          transition={{duration:0.3, ease: "easeInOut"}}
+          className={`w-70  md:block bg-blue-500/85 h-full overflow-y-auto fixed z-100 ${
+            isOpen ? "hidden" : " "
           } `}
         >
           <Sidebar />
         </motion.div>
-        <div className="flex-1 md:ml-70 px-2 overflow-y-auto h-full">
+        <div className="flex-1 md:ml-68 px-2 overflow-y-auto h-full">
           <Outlet />
         </div>
       </main>
