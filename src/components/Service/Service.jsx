@@ -4,7 +4,7 @@ import { FaStethoscope,  FaNotesMedical, FaVideo, FaFileMedical, FaHospital } fr
 
 const Service = () => {
   return (
-    <div className="my-16 px-4 md:px-10">
+    <div className="my-16 ">
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold text-gray-100 mb-3">Our Services</h2>
         <p className="text-gray-100">We provide essential healthcare services to simplify your life.</p>

@@ -54,7 +54,7 @@ const data = [
   
 const Faq = () => {
   return (
-    <div>
+    <div className="py-5">
         <div>
         <h1 class="text-3xl md:text-4xl font-bold text-white  my-8 text-center ">Frequently Asked Questions</h1>
         </div>

@@ -5,7 +5,7 @@ import { FaUserMd } from 'react-icons/fa'
 
 const DashboardSummary = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 my-24 px-4 md:px-10 ">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 my-24  ">
       
       {/* Total Doctors */}
       <div className="flex items-center bg-white/40 shadow-lg rounded-2xl p-6 hover:scale-105 transition duration-300">

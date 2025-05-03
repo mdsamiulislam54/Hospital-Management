@@ -16,22 +16,22 @@ const Root = () => {
           <Navbar />
         </div>
       </nav>
-      <main className="flex flex-1   relative overflow-hidden ">
+      <main className="flex  relative overflow-hidden ">
         <motion.div
           initial={{ x: -350 }}
           animate={{x:isOpen ? -350:0}}
           transition={{duration:0.3, ease: "easeInOut"}}
-          className={`w-70  xl:block bg-blue-500/85 h-full overflow-y-auto fixed z-100 ${
-            isOpen ? "hidden" : " "
+          className={`w-70  xl:block bg-blue-500/85 h-full overflow-y-auto  z-100 ${
+            isOpen ? "hidden" : " absolute z-0"
           } `}
         >
           <Sidebar />
         </motion.div>
-        <div className="flex-1 xl:ml-68 px-2 overflow-y-auto h-full">
+        <div className="flex-1 xl:ml-6 px-2 overflow-y-auto h-full">
           <Outlet />
         </div>
       </main>
-      <footer>{/* <Footer/> */}</footer>
+      <footer className="z-100"><Footer/></footer>
     </div>
   );
 };
