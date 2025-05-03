@@ -7,6 +7,7 @@ import Root from './components/LayOut/Root.jsx'
 import Home from './components/Home/Home.jsx'
 import { Provider } from 'react-redux'
 import { store } from './Redux/Store/Store.js'
+import Dashboard from './components/Dashboard/Dashboard.jsx'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
     children:[
       {
         path:'/', element:<Home/>
+      },
+      {
+        path:'dashboard',
+        element:<Dashboard/>
       }
     ]
   }

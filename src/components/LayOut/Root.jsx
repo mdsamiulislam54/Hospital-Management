@@ -11,7 +11,7 @@ const Root = () => {
   
   return (
     <div>
-      <nav className="md:hidden max-md:block py-4 shadow bg-gradient-to-r to-blue-50 relative">
+      <nav className="xl:hidden max-xl:block py-4 shadow bg-gradient-to-r to-blue-50 relative">
         <div className="navbar_container w-10/12 mx-auto">
           <Navbar />
         </div>
@@ -21,13 +21,13 @@ const Root = () => {
           initial={{ x: -350 }}
           animate={{x:isOpen ? -350:0}}
           transition={{duration:0.3, ease: "easeInOut"}}
-          className={`w-70  md:block bg-blue-500/85 h-full overflow-y-auto fixed z-100 ${
+          className={`w-70  xl:block bg-blue-500/85 h-full overflow-y-auto fixed z-100 ${
             isOpen ? "hidden" : " "
           } `}
         >
           <Sidebar />
         </motion.div>
-        <div className="flex-1 md:ml-68 px-2 overflow-y-auto h-full">
+        <div className="flex-1 xl:ml-68 px-2 overflow-y-auto h-full">
           <Outlet />
         </div>
       </main>
