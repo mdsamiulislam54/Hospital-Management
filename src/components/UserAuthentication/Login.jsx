@@ -2,49 +2,60 @@ import React, { useState } from "react";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { FcGoogle } from "react-icons/fc";
 import { IoPhonePortraitOutline } from "react-icons/io5";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 import { FaRegEye } from "react-icons/fa6";
 import { FaRegEyeSlash } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { signInWithEmail, signInWithGoogle } from "../../Redux/Store/ReduxSlice/UserSlice";
+import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
+
 
 const Login = () => {
   const [ispassword, setIsPassword] = useState(false);
-  const { user, loading,error } = useSelector((state) => state.user);
+  const {  loading } = useSelector((state) => state.user);
   const dispatch = useDispatch();
-  console.log(error);
+  const navigate = useNavigate()
+
 
   const handleGoogleSignIn = () => {
-    dispatch(signInWithGoogle());
+    dispatch(signInWithGoogle())
+    .unwrap()
+    .then(()=>{
+      toast.success(' Login Sucessfull ! ')
+      navigate('/')
+    }).catch(err =>{
+      toast.error('Login failed'+ err.message)
+    })
   };
 
-  const handleSigninWithEmail = e =>{
-    e.preventDefault()
-
+  const handleSigninWithEmail = e => {
+    e.preventDefault();
+  
     const email = e.target.email.value;
     const password = e.target.password.value;
-
-    dispatch(signInWithEmail({email,password}))
-    if(error){
-      toast(error,{
-        position:"top-right"
+  
+    dispatch(signInWithEmail({ email, password }))
+      .unwrap() 
+      .then(() => {
+        toast.success("  Login successfully!",{autoClose:2000});
+        setTimeout(() => navigate('/'), 2000);
       })
-    }
-    if(!error){
-      toast('login sucessfully',{
-        position:"top-right"
-      })
-    }
+      .catch((err) => {
+        toast.error("   Login failed! " + err.message , {autoClose:2000});
+      });
+  };
+  
+   
   
 
  
   
 
-  }
+  
   return (
     <div className="h-screen xl:ml-62 px-4 flex flex-col justify-center items-center">
-      <div className="flex flex-col gap-3 lg:w-5/12 mx-auto shadow-lg p-4 shadow-gray-100">
+      <div className="flex flex-col gap-5 lg:w-5/12 mx-auto shadow-lg p-4 shadow-gray-100">
         <form action=""
         onSubmit={handleSigninWithEmail}
         >
@@ -58,7 +69,7 @@ const Login = () => {
             name="email"
             required
             placeholder="Enter Your Email"
-            className="w-full border-b p-2 text-white outline-none"
+            className="w-full border-b p-2 text-white outline-none "
           />
           <span className="relative">
             <input
@@ -69,7 +80,7 @@ const Login = () => {
               className="w-full border-b p-2 text-white outline-none"
             />
             <span
-              className="absolute top-3 right-0 text-white"
+              className="absolute top-2 right-0 text-white"
               onClick={() => setIsPassword(!ispassword)}
             >
               {ispassword ? <FaRegEye /> : <FaRegEyeSlash />}
@@ -114,8 +125,9 @@ const Login = () => {
             </Link>
           </p>
         </div>
+        <ToastContainer/>
       </div>
-      <ToastContainer/>
+   
     </div>
   );
 };

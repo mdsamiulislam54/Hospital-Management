@@ -5,7 +5,8 @@ import {
   signInWithPopup,
   updateProfile,
   GoogleAuthProvider,
-  signOut
+  signOut,
+  
 } from "firebase/auth";
 import auth from "../../../firebase-init";
 
@@ -19,6 +20,7 @@ export const signInWithEmail = createAsyncThunk(
   "user/signInwithEmail",
   async ({ email, password }) => {
     const userInfo = await signInWithEmailAndPassword(auth, email, password);
+
     // Return only the necessary fields
     return {
       uid: userInfo.user.uid,
@@ -42,6 +44,7 @@ export const createUser = createAsyncThunk(
     const userInfo = await createUserWithEmailAndPassword(auth, email, password);
     const user = userInfo.user;
   
+  
     // Update the profile with displayName and phone
     await updateProfile(user, {
       displayName: name,
@@ -63,6 +66,7 @@ export const signInWithGoogle = createAsyncThunk(
   async () => {
     const provider = new GoogleAuthProvider();
     const userInfo = await signInWithPopup(auth, provider);
+   
     // Return only necessary fields from the user object
     return {
       uid: userInfo.user.uid,

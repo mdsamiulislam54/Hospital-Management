@@ -1,16 +1,19 @@
 
 import { MdDriveFileRenameOutline } from "react-icons/md";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 import { FaRegEye } from "react-icons/fa6";
 import { FaRegEyeSlash } from "react-icons/fa";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { createUser } from "../../Redux/Store/ReduxSlice/UserSlice";
 import { useState } from "react";
+import { toast ,ToastContainer} from "react-toastify";
 
 const Registration = () => {
   const [ispassword,setIsPassword] = useState(false)
+  const {loading} = useSelector((state)=>state.user)
 
   const dispatch = useDispatch()
+  const navigate = useNavigate()
   const handleCreateUserWithEmailAndPassword = e =>{
     e.preventDefault()
   
@@ -21,7 +24,16 @@ const Registration = () => {
     const password = e.target.password.value;
 
     dispatch(createUser({name, phone, email, password }))
-    e.target.reset()
+    .unwrap() 
+    .then(()=>{
+      toast.success(' ✅  Registration sucessfully !', {position:'top-right', autoClose:2000})
+      setTimeout(()=>{
+        navigate('/login')
+      },2000)
+    }).catch(err =>{
+      toast.error(err.message)
+    })
+    
 
   } 
   return (
@@ -73,11 +85,17 @@ const Registration = () => {
             }
           </span>
           </span>
-          <input
+          <button
             type="submit"
-            value="Sign Up"
+            
             className="w-full my-4 p-2 text-white btn btn-outline hover:bg-white hover:text-black transition-all duration-500 "
-          />
+          >
+             {loading ? (
+              <span className="loading loading-infinity loading-xl"></span>
+            ) : (
+              "Sign Up"
+            )}
+          </button>
           <p className="text-center text-xl font-semibold my-4 text-white">Or</p>
 
           <div>
@@ -90,6 +108,7 @@ const Registration = () => {
           </div>
         </form>
       </div>
+      <ToastContainer/>
     </div>
   );
 };

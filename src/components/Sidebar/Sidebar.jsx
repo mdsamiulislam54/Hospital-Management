@@ -22,7 +22,7 @@ const Sidebar = () => {
     </div>
     <p className='text-center text-sm mb-2'>
     {
-      user && (user.displayName)
+      user && (user.email)
     }
     </p>
   

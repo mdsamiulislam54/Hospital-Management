@@ -56,10 +56,10 @@ const Faq = () => {
   return (
     <div className="py-5">
         <div>
-        <h1 class="text-3xl md:text-4xl font-bold text-white  my-8 text-center ">Frequently Asked Questions</h1>
+        <h1 className="text-3xl md:text-4xl font-bold text-white  my-8 text-center ">Frequently Asked Questions</h1>
         </div>
         {
-            data.map((item)=><div className="collapse collapse-plus 
+            data.map((item)=><div key={item.id} className="collapse collapse-plus 
             border-b mb-2 border-white
             ">
             <input type="radio" name="my-accordion-3" defaultChecked />
