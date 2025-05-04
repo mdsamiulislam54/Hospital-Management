@@ -8,6 +8,7 @@ import { FaRegCalendarDays, FaUser, FaUserDoctor } from 'react-icons/fa6'
 import { FaPlusSquare } from 'react-icons/fa'
 import { TbReport } from 'react-icons/tb'
 import { IoIosSettings } from 'react-icons/io'
+
 const Sidebar = () => {
   return (
     <div className="w-10/12 mx-auto  min-h-screen p-5 rounded-lg text-white">
@@ -67,12 +68,13 @@ const Sidebar = () => {
         </NavLink>
         <NavLink
           className=" btn btn-outline flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:bg-white transition"
-          to="/login"
+          to={'/login'}
         >
           <FaUser /> Sing In / Login
         </NavLink>
       </ul>
     </div>
+
   </div>
   
   )

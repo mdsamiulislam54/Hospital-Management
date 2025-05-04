@@ -8,7 +8,7 @@ import NewsLetter from "../NewsLetter/NewsLetter";
 
 const Home = () => {
   return (
-    <div className="lg:ml-62">
+    <div className="xl:ml-62">
       <section className="h-screen ">
         <section className="px-0">
          

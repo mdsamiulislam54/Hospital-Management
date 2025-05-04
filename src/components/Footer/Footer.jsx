@@ -14,8 +14,8 @@ import Newsletter from "../NewsLetter/NewsLetter";
 
 const Footer = () => {
   return (
-    <div className="pt-20 bg-white px-4 z-100 ">
-      <div>
+    <div className="pt-20 bg-white z-100 ">
+      <div className="px-4 ">
         <div>
          <Newsletter/>
         </div>
