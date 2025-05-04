@@ -1,4 +1,4 @@
-import { StrictMode } from 'react'
+import { StrictMode, useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 
@@ -11,10 +11,13 @@ import Dashboard from './components/Dashboard/Dashboard.jsx'
 import Login from './components/UserAuthentication/Login.jsx'
 import Registration from './components/UserAuthentication/Registration.jsx'
 
+import App from './App'
+
+
 const router = createBrowserRouter([
   {
     path:'/',
-    element:<Root/>,
+    element:<App/>,
     children:[
       {
         path:'/', element:<Home/>
@@ -34,6 +37,8 @@ const router = createBrowserRouter([
     ]
   }
 ])
+
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

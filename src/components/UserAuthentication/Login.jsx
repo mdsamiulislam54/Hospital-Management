@@ -5,19 +5,34 @@ import { IoPhonePortraitOutline } from "react-icons/io5";
 import { Link } from "react-router";
 import { FaRegEye } from "react-icons/fa6";
 import { FaRegEyeSlash } from "react-icons/fa";
+import { useDispatch, useSelector } from "react-redux";
+import { signInWithGoogle } from "../../Redux/Store/ReduxSlice/UserSlice";
+
 
 
 const Login = () => {
   const [ispassword, setIsPassword] = useState(false);
+  const { user, loading } = useSelector((state) => state.user);
+  const dispatch = useDispatch()
+  console.log(user)
+
+  const handleGoogleSignIn = () => {
+    dispatch(signInWithGoogle());
+  };
+
+
+
   return (
     <div className="h-screen xl:ml-62 px-4 flex flex-col justify-center items-center">
+      <div className="flex flex-col gap-3 w-5/12 mx-auto shadow-lg p-4 shadow-gray-100">
       <form
         action=""
-        className="flex flex-col gap-3 w-5/12 mx-auto shadow-lg p-4 shadow-gray-100"
+        
       >
-        <caption className="mb-4 text-xl font-semibold text-white">
+        <p className="mb-4 text-xl font-semibold text-white text-center">
           Sign In
-        </caption>
+         
+        </p>
 
         <input
           type="email"
@@ -41,14 +56,21 @@ const Login = () => {
             {ispassword ? <FaRegEye /> : <FaRegEyeSlash />}
           </span>
         </span>
+        <span>
+          <p className="text-sm font-bold text-white cursor-pointer text-end hover:text-green-300 transition-all duration-500">Forget password ?</p>
+        </span>
         <input
           type="submit"
           value="Sign In"
           className="w-full my-4 p-2 text-white btn btn-outline hover:bg-white hover:text-black transition-all duration-500 "
         />
-        <caption className="text-white text-xl font-bold">Or</caption>
+       
+      </form>
+      <p className="text-white text-xl font-bold text-center">Or</p>
         <div className="flex justify-center items-center flex-col gap-4">
-          <button className="btn bg-white text-black border-[#e5e5e5] btn-block">
+          <button 
+          onClick={handleGoogleSignIn}
+          className="btn bg-white text-black border-[#e5e5e5] btn-block">
             <FcGoogle size={24} />
             Sing In with Google
           </button>
@@ -66,7 +88,7 @@ const Login = () => {
             </Link>
           </p>
         </div>
-      </form>
+        </div>
     </div>
   );
 };

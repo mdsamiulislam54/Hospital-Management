@@ -13,9 +13,9 @@ const Registration = () => {
           action=""
           className="flex flex-col gap-3 w-5/12 mx-auto shadow-lg p-4 shadow-gray-100"
         >
-          <caption className="mb-4 text-xl font-semibold text-white">
-            Sign In
-          </caption>
+          <p className="mb-4 text-xl font-semibold text-white text-center">
+            Sign Up
+          </p>
        
         <input
             type="text"
@@ -58,7 +58,7 @@ const Registration = () => {
             value="Sign Up"
             className="w-full my-4 p-2 text-white btn btn-outline hover:bg-white hover:text-black transition-all duration-500 "
           />
-          <caption>Or</caption>
+          <p className="text-center text-xl font-semibold my-4 text-white">Or</p>
 
           <div>
             <p className="text-center text-white">
