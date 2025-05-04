@@ -1,15 +1,34 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { MdDriveFileRenameOutline } from "react-icons/md";
 import { Link } from "react-router";
 import { FaRegEye } from "react-icons/fa6";
 import { FaRegEyeSlash } from "react-icons/fa";
+import { useDispatch } from "react-redux";
+import { createUser } from "../../Redux/Store/ReduxSlice/UserSlice";
 
 const Registration = () => {
   const [ispassword,setIsPassword] = useState(false)
+
+  const dispatch = useDispatch()
+  const handleCreateUserWithEmailAndPassword = e =>{
+    e.preventDefault()
+  
+
+    const name = e.target.name.value;
+    const phone = e.target.phone.value;
+    const email = e.target.email.value;
+    const password = e.target.password.value;
+
+    dispatch(createUser({name, phone, email, password }))
+    e.target.reset()
+
+  } 
   return (
     <div>
       <div className="h-screen xl:ml-62 px-4 flex flex-col justify-center items-center">
         <form
+        onSubmit={handleCreateUserWithEmailAndPassword}
+        
           action=""
           className="flex flex-col gap-3 w-5/12 mx-auto shadow-lg p-4 shadow-gray-100"
         >

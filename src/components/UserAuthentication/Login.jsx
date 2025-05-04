@@ -24,7 +24,7 @@ const Login = () => {
 
   return (
     <div className="h-screen xl:ml-62 px-4 flex flex-col justify-center items-center">
-      <div className="flex flex-col gap-3 w-5/12 mx-auto shadow-lg p-4 shadow-gray-100">
+      <div className="flex flex-col gap-3 lg:w-5/12 mx-auto shadow-lg p-4 shadow-gray-100">
       <form
         action=""
         
