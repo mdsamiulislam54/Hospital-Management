@@ -1,10 +1,11 @@
-import React, { useRef, useState } from "react";
+
 import { MdDriveFileRenameOutline } from "react-icons/md";
 import { Link } from "react-router";
 import { FaRegEye } from "react-icons/fa6";
 import { FaRegEyeSlash } from "react-icons/fa";
 import { useDispatch } from "react-redux";
 import { createUser } from "../../Redux/Store/ReduxSlice/UserSlice";
+import { useState } from "react";
 
 const Registration = () => {
   const [ispassword,setIsPassword] = useState(false)

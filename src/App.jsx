@@ -5,26 +5,36 @@ import './App.css'
 import Root from './components/LayOut/Root'
 import { useEffect } from 'react'
 import { store } from './Redux/Store/Store.js'
+import { useSelector } from 'react-redux'
 
 
 function App() {
-  
+  const {user} = useSelector((state)=>state.user)
   useEffect(()=>{
-    store.dispatch(setLoading(true))
-    const unsubscribe  = onAuthStateChanged(auth, (user)=>{
-      if(user){
-        store.dispatch(setUser(user))
-      }else{
-        store.dispatch(setUser(null))
+    const subscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+       
+        const userData = {
+          uid: user.uid,
+          email: user.email,
+          displayName: user.displayName,
+          photoURL:user.photoURL
+        };
+
+        store.dispatch(setUser(userData));
+      } else {
+        store.dispatch(setUser(null));
       }
-    })
-  
-    return () => unsubscribe();
+    });
+
+    return () => subscribe(); 
   },[])
   return (
    <>
       <Root/>
-      
+      {
+        user ? (''):(<p>please login </p>)
+      }
    </>
   )
 }
