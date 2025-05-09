@@ -12,7 +12,7 @@ import auth from "../../../firebase-init";
 
 const initialState = {
   user: null,  // Initially set to null
-  loading: false,
+  loading: true,
   error: null,
 };
 

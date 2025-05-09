@@ -44,7 +44,7 @@ const Sidebar = () => {
   
         <NavLink
           className="flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:bg-blue-600 transition"
-          to="/doctors"
+          to="/doctorlist"
         >
           <FaUserDoctor /> Doctors List
         </NavLink>

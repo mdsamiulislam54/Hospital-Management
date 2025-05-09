@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { FcGoogle } from "react-icons/fc";
 import { IoPhonePortraitOutline } from "react-icons/io5";
-import { Link, useNavigate } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import { FaRegEye } from "react-icons/fa6";
 import { FaRegEyeSlash } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
@@ -16,6 +16,8 @@ const Login = () => {
   const {  loading } = useSelector((state) => state.user);
   const dispatch = useDispatch();
   const navigate = useNavigate()
+  const {state} = useLocation()
+  console.log(state)
 
 
   const handleGoogleSignIn = () => {
@@ -23,7 +25,7 @@ const Login = () => {
     .unwrap()
     .then(()=>{
       toast.success(' Login Sucessfull ! ')
-      navigate('/')
+      navigate(state ||'/')
     }).catch(err =>{
       toast.error('Login failed'+ err.message)
     })
@@ -39,7 +41,7 @@ const Login = () => {
       .unwrap() 
       .then(() => {
         toast.success("  Login successfully!",{autoClose:2000});
-        setTimeout(() => navigate('/'), 2000);
+        setTimeout(() => navigate( state ||'/'), 2000);
       })
       .catch((err) => {
         toast.error("   Login failed! " + err.message , {autoClose:2000});

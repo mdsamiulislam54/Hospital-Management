@@ -1,0 +1,2903 @@
+[
+  {
+    "doctor_id": "D1001",
+    "full_name": "Dr. Samiul Islam",
+    "gender": "Male",
+    "date_of_birth": "1966-06-08",
+    "specialization": "Orthopedics",
+    "email": "samiulislam@hospital.com",
+    "phone": "01711674951",
+    "nid_or_passport": "1982257083408",
+    "address": "Barishal, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmJFwaxsVK_9IU379ojy7G33lO6kZX8FApg&s",
+    "qualifications": [
+      "MD",
+      "DO",
+      "DLO"
+    ],
+    "years_of_experience": 19,
+    "joining_date": "2016-02-25",
+    "available_days": [
+      "Thursday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 590,
+    "status": "On Leave",
+    "blood_group": "A+",
+    "emergency_contact": "01330347143",
+    "chambers": [
+      {
+        "chamber_id": "C101A",
+        "location": "Rajshahi General Hospital",
+        "address": "Rangpur, Bangladesh",
+        "available_days": [
+          "Saturday",
+          "Monday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C101B",
+        "location": "Dhaka Clinic",
+        "address": "Dhaka, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1002",
+    "full_name": "Dr. Tanvir Ahmed",
+    "gender": "Female",
+    "date_of_birth": "1973-11-09",
+    "specialization": "Oncology",
+    "email": "tanvirahmed@hospital.com",
+    "phone": "01910152272",
+    "nid_or_passport": "1988113749332",
+    "address": "Rangpur, Bangladesh",
+    "profile_photo": "https://uttara.bdeyehospital.com/media/images/13._Dr._Tanvir_Ahmed.jpg",
+    "qualifications": [
+      "MS",
+      "DLO",
+      "MD"
+    ],
+    "years_of_experience": 16,
+    "joining_date": "2017-01-29",
+    "available_days": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1473,
+    "status": "Active",
+    "blood_group": "O+",
+    "emergency_contact": "01625914104",
+    "chambers": [
+      {
+        "chamber_id": "C102A",
+        "location": "Khulna General Hospital",
+        "address": "Cumilla, Bangladesh",
+        "available_days": [
+          "Monday",
+          "Tuesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C102B",
+        "location": "Cumilla Clinic",
+        "address": "Chattogram, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1003",
+    "full_name": "Dr. Farhana Rahman",
+    "gender": "Male",
+    "date_of_birth": "1976-03-31",
+    "specialization": "Oncology",
+    "email": "farhanarahman@hospital.com",
+    "phone": "01370180362",
+    "nid_or_passport": "1990057207786",
+    "address": "Rangpur, Bangladesh",
+    "profile_photo": "https://www.doctorspedia.co/uploads/doctor/63ce0d93de029.jpg",
+    "qualifications": [
+      "MD",
+      "MS",
+      "DO"
+    ],
+    "years_of_experience": 27,
+    "joining_date": "2020-10-20",
+    "available_days": [
+      "Thursday",
+      "Monday",
+      "Wednesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 830,
+    "status": "Active",
+    "blood_group": "AB-",
+    "emergency_contact": "01457851837",
+    "chambers": [
+      {
+        "chamber_id": "C103A",
+        "location": "Rangpur General Hospital",
+        "address": "Dhaka, Bangladesh",
+        "available_days": [
+          "Saturday",
+          "Monday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C103B",
+        "location": "Rangpur Clinic",
+        "address": "Barishal, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1004",
+    "full_name": "Dr. Mahmudul Hasan",
+    "gender": "Male",
+    "date_of_birth": "1971-01-25",
+    "specialization": "Psychiatry",
+    "email": "mahmudulhasan@hospital.com",
+    "phone": "01896764193",
+    "nid_or_passport": "1984907826411",
+    "address": "Rajshahi, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTglMp7AX1a9usxqfQuQ3CF4OcMAW4QViHSww&s",
+    "qualifications": [
+      "MBBS",
+      "DLO",
+      "DO"
+    ],
+    "years_of_experience": 14,
+    "joining_date": "2019-12-20",
+    "available_days": [
+      "Monday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1179,
+    "status": "Active",
+    "blood_group": "AB+",
+    "emergency_contact": "01453454565",
+    "chambers": [
+      {
+        "chamber_id": "C104A",
+        "location": "Chattogram General Hospital",
+        "address": "Cumilla, Bangladesh",
+        "available_days": [
+          "Saturday",
+          "Tuesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C104B",
+        "location": "Barishal Clinic",
+        "address": "Chattogram, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1005",
+    "full_name": "Dr. Jannatul Ferdous",
+    "gender": "Female",
+    "date_of_birth": "1990-06-25",
+    "specialization": "Radiology",
+    "email": "jannatulferdous@hospital.com",
+    "phone": "01379381553",
+    "nid_or_passport": "1998931789514",
+    "address": "Khulna, Bangladesh",
+    "profile_photo": "https://www.doctorspedia.co/uploads/doctor/64dd94df6da0c.gif",
+    "qualifications": [
+      "MS",
+      "MD",
+      "MBBS"
+    ],
+    "years_of_experience": 20,
+    "joining_date": "2017-06-19",
+    "available_days": [
+      "Wednesday",
+      "Tuesday",
+      "Saturday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 703,
+    "status": "Active",
+    "blood_group": "AB-",
+    "emergency_contact": "01911038425",
+    "chambers": [
+      {
+        "chamber_id": "C105A",
+        "location": "Shariatpur General Hospital",
+        "address": "Rajshahi, Bangladesh",
+        "available_days": [
+          "Tuesday",
+          "Monday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C105B",
+        "location": "Khulna Clinic",
+        "address": "Khulna, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1006",
+    "full_name": "Dr. Nazmul Huda",
+    "gender": "Female",
+    "date_of_birth": "1988-03-23",
+    "specialization": "Gynecology",
+    "email": "nazmulhuda@hospital.com",
+    "phone": "01417553280",
+    "nid_or_passport": "1990076363887",
+    "address": "Shariatpur, Bangladesh",
+    "profile_photo": "https://www.doctorspedia.co/uploads/doctor/63a133bc3de99.jpg",
+    "qualifications": [
+      "FCPS",
+      "DO",
+      "MD"
+    ],
+    "years_of_experience": 10,
+    "joining_date": "2025-04-12",
+    "available_days": [
+      "Tuesday",
+      "Saturday",
+      "Wednesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 709,
+    "status": "Active",
+    "blood_group": "AB-",
+    "emergency_contact": "01345028855",
+    "chambers": [
+      {
+        "chamber_id": "C106A",
+        "location": "Rangpur General Hospital",
+        "address": "Khulna, Bangladesh",
+        "available_days": [
+          "Monday",
+          "Saturday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C106B",
+        "location": "Barishal Clinic",
+        "address": "Cumilla, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1007",
+    "full_name": "Dr. Sharmin Akter",
+    "gender": "Female",
+    "date_of_birth": "1966-07-28",
+    "specialization": "Orthopedics",
+    "email": "sharminakter@hospital.com",
+    "phone": "01725146553",
+    "nid_or_passport": "1992319757347",
+    "address": "Rangpur, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrHAlEMiANNaVuv-UCcy7tUKNvZL8ZvFv-wg&s",
+    "qualifications": [
+      "MS",
+      "MBBS",
+      "DO"
+    ],
+    "years_of_experience": 27,
+    "joining_date": "2016-11-28",
+    "available_days": [
+      "Monday",
+      "Saturday",
+      "Tuesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1077,
+    "status": "Active",
+    "blood_group": "A-",
+    "emergency_contact": "01853266410",
+    "chambers": [
+      {
+        "chamber_id": "C107A",
+        "location": "Chattogram General Hospital",
+        "address": "Khulna, Bangladesh",
+        "available_days": [
+          "Monday",
+          "Saturday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C107B",
+        "location": "Chattogram Clinic",
+        "address": "Shariatpur, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1008",
+    "full_name": "Dr. Raihan Kabir",
+    "gender": "Male",
+    "date_of_birth": "1970-05-20",
+    "specialization": "Psychiatry",
+    "email": "raihankabir@hospital.com",
+    "phone": "01811346305",
+    "nid_or_passport": "1992787643552",
+    "address": "Sylhet, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjeqjblp2zkALJM5wZVqr7gRyrFF8sr0sWfw&s",
+    "qualifications": [
+      "MD",
+      "DO",
+      "FCPS"
+    ],
+    "years_of_experience": 25,
+    "joining_date": "2020-05-10",
+    "available_days": [
+      "Thursday",
+      "Monday",
+      "Sunday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 971,
+    "status": "On Leave",
+    "blood_group": "O-",
+    "emergency_contact": "01546039006",
+    "chambers": [
+      {
+        "chamber_id": "C108A",
+        "location": "Dhaka General Hospital",
+        "address": "Shariatpur, Bangladesh",
+        "available_days": [
+          "Tuesday",
+          "Monday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C108B",
+        "location": "Barishal Clinic",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1009",
+    "full_name": "Dr. Mim Akter",
+    "gender": "Female",
+    "date_of_birth": "1993-12-05",
+    "specialization": "Oncology",
+    "email": "mimakter@hospital.com",
+    "phone": "01329558054",
+    "nid_or_passport": "1983470897908",
+    "address": "Chattogram, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7TDVhplJRNFlABtFXUvy5CWNQNX0NTPc3eg&s",
+    "qualifications": [
+      "MD",
+      "DO",
+      "DLO"
+    ],
+    "years_of_experience": 10,
+    "joining_date": "2018-01-10",
+    "available_days": [
+      "Thursday",
+      "Sunday",
+      "Monday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 583,
+    "status": "On Leave",
+    "blood_group": "B-",
+    "emergency_contact": "01781197744",
+    "chambers": [
+      {
+        "chamber_id": "C109A",
+        "location": "Cumilla General Hospital",
+        "address": "Sylhet, Bangladesh",
+        "available_days": [
+          "Saturday",
+          "Tuesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C109B",
+        "location": "Mymensingh Clinic",
+        "address": "Barishal, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1010",
+    "full_name": "Dr. Mehedi Hasan",
+    "gender": "Female",
+    "date_of_birth": "1990-03-14",
+    "specialization": "ENT",
+    "email": "mehedihasan@hospital.com",
+    "phone": "01899680924",
+    "nid_or_passport": "1999457937155",
+    "address": "Sylhet, Bangladesh",
+    "profile_photo": "https://cdn.sasthyaseba.com/doctors/1179/YGaXWUSSr77QvCspBkBW5jU4yYnS6S3uGdEPivYG/dr-md-mehedi-hasan.png",
+    "qualifications": [
+      "MD",
+      "DO",
+      "MS"
+    ],
+    "years_of_experience": 28,
+    "joining_date": "2019-09-15",
+    "available_days": [
+      "Thursday",
+      "Saturday",
+      "Monday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 793,
+    "status": "Active",
+    "blood_group": "A-",
+    "emergency_contact": "01915471286",
+    "chambers": [
+      {
+        "chamber_id": "C110A",
+        "location": "Shariatpur General Hospital",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Tuesday",
+          "Monday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C110B",
+        "location": "Mymensingh Clinic",
+        "address": "Sylhet, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1011",
+    "full_name": "Dr. Faria Nawar",
+    "gender": "Female",
+    "date_of_birth": "1979-09-30",
+    "specialization": "Dermatology",
+    "email": "farianawar@hospital.com",
+    "phone": "01826678064",
+    "nid_or_passport": "1986681234202",
+    "address": "Barishal, Bangladesh",
+    "profile_photo": "https://www.daktarbangladesh.com/wp-content/uploads/%E0%A6%A1%E0%A6%BE%E0%A6%83-%E0%A6%AB%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%86%E0%A6%AB%E0%A6%B8%E0%A6%BE%E0%A6%A8%E0%A6%BE.jpg",
+    "qualifications": [
+      "MS",
+      "MBBS",
+      "DO"
+    ],
+    "years_of_experience": 16,
+    "joining_date": "2020-05-08",
+    "available_days": [
+      "Sunday",
+      "Wednesday",
+      "Monday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1010,
+    "status": "Active",
+    "blood_group": "A-",
+    "emergency_contact": "01888397574",
+    "chambers": [
+      {
+        "chamber_id": "C111A",
+        "location": "Rangpur General Hospital",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Tuesday",
+          "Saturday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C111B",
+        "location": "Rangpur Clinic",
+        "address": "Chattogram, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1012",
+    "full_name": "Dr. Sazzad Hossain",
+    "gender": "Female",
+    "date_of_birth": "1965-12-13",
+    "specialization": "Cardiology",
+    "email": "sazzadhossain@hospital.com",
+    "phone": "01584160651",
+    "nid_or_passport": "1996028773962",
+    "address": "Sylhet, Bangladesh",
+    "profile_photo": "https://www.uchbd.com/uploads/Doctor/DR.%20MD.%20SAZZAD%20HOSSAIN%20(SHAWON)1699676008_Dr.%20Sazzad%20Hossain%20%20(2).jpg",
+    "qualifications": [
+      "FCPS",
+      "MBBS",
+      "DLO"
+    ],
+    "years_of_experience": 11,
+    "joining_date": "2023-02-12",
+    "available_days": [
+      "Saturday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1130,
+    "status": "Active",
+    "blood_group": "AB-",
+    "emergency_contact": "01394399640",
+    "chambers": [
+      {
+        "chamber_id": "C112A",
+        "location": "Sylhet General Hospital",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Saturday",
+          "Monday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C112B",
+        "location": "Mymensingh Clinic",
+        "address": "Cumilla, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1013",
+    "full_name": "Dr. Tanjina Haque",
+    "gender": "Female",
+    "date_of_birth": "1993-11-19",
+    "specialization": "ENT",
+    "email": "tanjinahaque@hospital.com",
+    "phone": "01539537598",
+    "nid_or_passport": "1992457282219",
+    "address": "Cumilla, Bangladesh",
+    "profile_photo": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Tazdina-Hoque-Khan.jpg",
+    "qualifications": [
+      "MBBS",
+      "DLO",
+      "FCPS"
+    ],
+    "years_of_experience": 25,
+    "joining_date": "2017-11-25",
+    "available_days": [
+      "Tuesday",
+      "Sunday",
+      "Wednesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1004,
+    "status": "On Leave",
+    "blood_group": "O+",
+    "emergency_contact": "01887114225",
+    "chambers": [
+      {
+        "chamber_id": "C113A",
+        "location": "Rangpur General Hospital",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Monday",
+          "Saturday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C113B",
+        "location": "Dhaka Clinic",
+        "address": "Rajshahi, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1014",
+    "full_name": "Dr. Hasan Mahmud",
+    "gender": "Female",
+    "date_of_birth": "1969-01-22",
+    "specialization": "ENT",
+    "email": "hasanmahmud@hospital.com",
+    "phone": "01371500387",
+    "nid_or_passport": "1988802261963",
+    "address": "Sylhet, Bangladesh",
+    "profile_photo": "https://lubana.s3.amazonaws.com/prod/doctor_photo/ba0239da-5f44-4d63-8442-69a14291b376.jpg",
+    "qualifications": [
+      "MS",
+      "FCPS",
+      "DLO"
+    ],
+    "years_of_experience": 16,
+    "joining_date": "2018-06-03",
+    "available_days": [
+      "Thursday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 693,
+    "status": "Active",
+    "blood_group": "A+",
+    "emergency_contact": "01578409898",
+    "chambers": [
+      {
+        "chamber_id": "C114A",
+        "location": "Sylhet General Hospital",
+        "address": "Chattogram, Bangladesh",
+        "available_days": [
+          "Monday",
+          "Tuesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C114B",
+        "location": "Rangpur Clinic",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1015",
+    "full_name": "Dr. Lamia Islam",
+    "gender": "Male",
+    "date_of_birth": "1969-06-18",
+    "specialization": "ENT",
+    "email": "lamiaislam@hospital.com",
+    "phone": "01425345466",
+    "nid_or_passport": "1996787175698",
+    "address": "Sylhet, Bangladesh",
+    "profile_photo": "https://awmch.addinhospital.org/wp-content/uploads/2023/11/Paediatric-Dr.-Lamia-Kamal-MBBS-DCH-Australia-.jpg",
+    "qualifications": [
+      "DO",
+      "MBBS",
+      "FCPS"
+    ],
+    "years_of_experience": 25,
+    "joining_date": "2023-07-24",
+    "available_days": [
+      "Tuesday",
+      "Monday",
+      "Saturday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1273,
+    "status": "Active",
+    "blood_group": "AB+",
+    "emergency_contact": "01429161059",
+    "chambers": [
+      {
+        "chamber_id": "C115A",
+        "location": "Sylhet General Hospital",
+        "address": "Cumilla, Bangladesh",
+        "available_days": [
+          "Saturday",
+          "Tuesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C115B",
+        "location": "Mymensingh Clinic",
+        "address": "Dhaka, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1016",
+    "full_name": "Dr. Alamin Mia",
+    "gender": "Male",
+    "date_of_birth": "1969-06-29",
+    "specialization": "Radiology",
+    "email": "alaminmia@hospital.com",
+    "phone": "01887921084",
+    "nid_or_passport": "1984310815782",
+    "address": "Rangpur, Bangladesh",
+    "profile_photo": "https://www.uap-bd.edu/ce/Faculties/shamim_miah.jpg",
+    "qualifications": [
+      "DLO",
+      "MD",
+      "MBBS"
+    ],
+    "years_of_experience": 9,
+    "joining_date": "2021-04-12",
+    "available_days": [
+      "Wednesday",
+      "Sunday",
+      "Thursday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 713,
+    "status": "On Leave",
+    "blood_group": "A+",
+    "emergency_contact": "01474906448",
+    "chambers": [
+      {
+        "chamber_id": "C116A",
+        "location": "Barishal General Hospital",
+        "address": "Rangpur, Bangladesh",
+        "available_days": [
+          "Saturday",
+          "Tuesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C116B",
+        "location": "Cumilla Clinic",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1017",
+    "full_name": "Dr. Sadman Sakib",
+    "gender": "Male",
+    "date_of_birth": "1983-02-17",
+    "specialization": "Orthopedics",
+    "email": "sadmansakib@hospital.com",
+    "phone": "01499203529",
+    "nid_or_passport": "1998596187171",
+    "address": "Chattogram, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMlhCCN6EoGdo-BFlmkco8sxkqjCKojWjvwQ&s",
+    "qualifications": [
+      "MBBS",
+      "MD",
+      "DLO"
+    ],
+    "years_of_experience": 28,
+    "joining_date": "2018-12-08",
+    "available_days": [
+      "Wednesday",
+      "Tuesday",
+      "Sunday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1224,
+    "status": "On Leave",
+    "blood_group": "B+",
+    "emergency_contact": "01311601433",
+    "chambers": [
+      {
+        "chamber_id": "C117A",
+        "location": "Cumilla General Hospital",
+        "address": "Cumilla, Bangladesh",
+        "available_days": [
+          "Tuesday",
+          "Saturday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C117B",
+        "location": "Chattogram Clinic",
+        "address": "Chattogram, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1018",
+    "full_name": "Dr. Rumana Jahan",
+    "gender": "Female",
+    "date_of_birth": "1992-12-26",
+    "specialization": "Pediatrics",
+    "email": "rumanajahan@hospital.com",
+    "phone": "01689192570",
+    "nid_or_passport": "1997649491736",
+    "address": "Mymensingh, Bangladesh",
+    "profile_photo": "https://www.doctorbangladesh.com/wp-content/uploads/Dr.-Raunak-Jahan.jpg",
+    "qualifications": [
+      "DLO",
+      "MD",
+      "MBBS"
+    ],
+    "years_of_experience": 24,
+    "joining_date": "2016-02-02",
+    "available_days": [
+      "Monday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1369,
+    "status": "Active",
+    "blood_group": "B+",
+    "emergency_contact": "01337148229",
+    "chambers": [
+      {
+        "chamber_id": "C118A",
+        "location": "Mymensingh General Hospital",
+        "address": "Rajshahi, Bangladesh",
+        "available_days": [
+          "Saturday",
+          "Tuesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C118B",
+        "location": "Rajshahi Clinic",
+        "address": "Sylhet, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1019",
+    "full_name": "Dr. Anik Hossain",
+    "gender": "Female",
+    "date_of_birth": "1973-02-13",
+    "specialization": "Radiology",
+    "email": "anikhossain@hospital.com",
+    "phone": "01872229679",
+    "nid_or_passport": "1980433656685",
+    "address": "Cumilla, Bangladesh",
+    "profile_photo": "https://ssl.du.ac.bd/fontView/assets/faculty_image/1851_Shafiqul-officialphoto.JPG",
+    "qualifications": [
+      "MS",
+      "MBBS",
+      "MD"
+    ],
+    "years_of_experience": 25,
+    "joining_date": "2017-05-06",
+    "available_days": [
+      "Sunday",
+      "Saturday",
+      "Monday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 793,
+    "status": "On Leave",
+    "blood_group": "B+",
+    "emergency_contact": "01690143485",
+    "chambers": [
+      {
+        "chamber_id": "C119A",
+        "location": "Shariatpur General Hospital",
+        "address": "Chattogram, Bangladesh",
+        "available_days": [
+          "Monday",
+          "Tuesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C119B",
+        "location": "Mymensingh Clinic",
+        "address": "Chattogram, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D1020",
+    "full_name": "Dr. Sumaiya Sultana",
+    "gender": "Female",
+    "date_of_birth": "1989-06-27",
+    "specialization": "Gynecology",
+    "email": "sumaiyasultana@hospital.com",
+    "phone": "01711939909",
+    "nid_or_passport": "1983903052862",
+    "address": "Barishal, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPjrMK4f01BtTeeJyp4-tmiT4GBlgbqP5cQ&s",
+    "qualifications": [
+      "MD",
+      "FCPS",
+      "MBBS"
+    ],
+    "years_of_experience": 8,
+    "joining_date": "2019-08-27",
+    "available_days": [
+      "Saturday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1267,
+    "status": "Active",
+    "blood_group": "B+",
+    "emergency_contact": "01774528581",
+    "chambers": [
+      {
+        "chamber_id": "C120A",
+        "location": "Rangpur General Hospital",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Monday",
+          "Tuesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C120B",
+        "location": "Shariatpur Clinic",
+        "address": "Sylhet, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  
+  {
+    "doctor_id": "D2021",
+    "full_name": "Dr. Sumon Chowdhury",
+    "gender": "Male",
+    "date_of_birth": "1989-06-05",
+    "specialization": "Orthopedics",
+    "email": "dr.sumonchowdhury@hospital.com",
+    "phone": "01715963333",
+    "nid_or_passport": "1987491624676",
+    "address": "Chattogram, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCj0x8uFQteP5n5h5I24hQF1xHl9cOwGU7g&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 22,
+    "joining_date": "2010-08-20",
+    "available_days": [
+      "Tuesday",
+      "Monday",
+      "Thursday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 733,
+    "status": "Active",
+    "blood_group": "O+",
+    "emergency_contact": "01877346940",
+    "chambers": [
+      {
+        "chamber_id": "C1141A",
+        "location": "Sylhet General Hospital",
+        "address": "Chattogram, Bangladesh",
+        "available_days": [
+          "Tuesday",
+          "Saturday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1141B",
+        "location": "Rangpur Medical College Hospital",
+        "address": "Chattogram, Bangladesh",
+        "available_days": [
+          "Tuesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2022",
+    "full_name": "Dr. Mehnaz Chowdhury",
+    "gender": "Female",
+    "date_of_birth": "1978-06-12",
+    "specialization": "ENT",
+    "email": "dr.mehnazchowdhury@hospital.com",
+    "phone": "01717942248",
+    "nid_or_passport": "1980785281881",
+    "address": "Mymensingh, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPjrMK4f01BtTeeJyp4-tmiT4GBlgbqP5cQ&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 5,
+    "joining_date": "2013-06-08",
+    "available_days": [
+      "Monday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1369,
+    "status": "Active",
+    "blood_group": "AB+",
+    "emergency_contact": "01876164001",
+    "chambers": [
+      {
+        "chamber_id": "C1142A",
+        "location": "Rajshahi General Hospital",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Saturday",
+          "Wednesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1142B",
+        "location": "Rajshahi General Hospital",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Saturday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2023",
+    "full_name": "Dr. Farzana Karim",
+    "gender": "Female",
+    "date_of_birth": "1989-02-08",
+    "specialization": "ENT",
+    "email": "dr.farzanakarim@hospital.com",
+    "phone": "01712708920",
+    "nid_or_passport": "1973582086670",
+    "address": "Khulna, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmJFwaxsVK_9IU379ojy7G33lO6kZX8FApg&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 21,
+    "joining_date": "2016-05-08",
+    "available_days": [
+      "Sunday",
+      "Thursday",
+      "Tuesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 734,
+    "status": "Active",
+    "blood_group": "O+",
+    "emergency_contact": "01877605646",
+    "chambers": [
+      {
+        "chamber_id": "C1143A",
+        "location": "Chattogram General Hospital",
+        "address": "Khulna, Bangladesh",
+        "available_days": [
+          "Sunday",
+          "Wednesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1143B",
+        "location": "Dhaka Central Clinic",
+        "address": "Khulna, Bangladesh",
+        "available_days": [
+          "Tuesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2024",
+    "full_name": "Dr. Tanvir Alam",
+    "gender": "Female",
+    "date_of_birth": "1990-09-14",
+    "specialization": "Neurology",
+    "email": "dr.tanviralam@hospital.com",
+    "phone": "01717877079",
+    "nid_or_passport": "1993953604512",
+    "address": "Comilla, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCj0x8uFQteP5n5h5I24hQF1xHl9cOwGU7g&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 21,
+    "joining_date": "2021-02-23",
+    "available_days": [
+      "Saturday",
+      "Sunday",
+      "Wednesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1013,
+    "status": "Active",
+    "blood_group": "O+",
+    "emergency_contact": "01874405527",
+    "chambers": [
+      {
+        "chamber_id": "C1144A",
+        "location": "Mymensingh City Clinic",
+        "address": "Comilla, Bangladesh",
+        "available_days": [
+          "Monday",
+          "Wednesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1144B",
+        "location": "Barishal Modern Hospital",
+        "address": "Comilla, Bangladesh",
+        "available_days": [
+          "Monday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2025",
+    "full_name": "Dr. Tania Afrin",
+    "gender": "Male",
+    "date_of_birth": "1990-04-02",
+    "specialization": "Urology",
+    "email": "dr.taniaafrin@hospital.com",
+    "phone": "01711217896",
+    "nid_or_passport": "1989866756188",
+    "address": "Sylhet, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCj0x8uFQteP5n5h5I24hQF1xHl9cOwGU7g&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 15,
+    "joining_date": "2017-08-04",
+    "available_days": [
+      "Tuesday",
+      "Monday",
+      "Wednesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1399,
+    "status": "Active",
+    "blood_group": "B+",
+    "emergency_contact": "01874381390",
+    "chambers": [
+      {
+        "chamber_id": "C1145A",
+        "location": "Comilla Modern Hospital",
+        "address": "Sylhet, Bangladesh",
+        "available_days": [
+          "Tuesday",
+          "Sunday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1145B",
+        "location": "Barishal General Hospital",
+        "address": "Sylhet, Bangladesh",
+        "available_days": [
+          "Saturday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2026",
+    "full_name": "Dr. Farzana Karim",
+    "gender": "Male",
+    "date_of_birth": "1990-02-24",
+    "specialization": "Neurology",
+    "email": "dr.farzanakarim@hospital.com",
+    "phone": "01714957142",
+    "nid_or_passport": "1996032063281",
+    "address": "Mymensingh, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPjrMK4f01BtTeeJyp4-tmiT4GBlgbqP5cQ&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 7,
+    "joining_date": "2010-11-05",
+    "available_days": [
+      "Tuesday",
+      "Monday",
+      "Thursday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1426,
+    "status": "Active",
+    "blood_group": "B+",
+    "emergency_contact": "01874096478",
+    "chambers": [
+      {
+        "chamber_id": "C1146A",
+        "location": "Shariatpur Medical College Hospital",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Wednesday",
+          "Sunday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1146B",
+        "location": "Shariatpur Medical College Hospital",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Saturday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2027",
+    "full_name": "Dr. Mehnaz Chowdhury",
+    "gender": "Male",
+    "date_of_birth": "1987-02-05",
+    "specialization": "Cardiology",
+    "email": "dr.mehnazchowdhury@hospital.com",
+    "phone": "01716084035",
+    "nid_or_passport": "1971549675253",
+    "address": "Mymensingh, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmJFwaxsVK_9IU379ojy7G33lO6kZX8FApg&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 25,
+    "joining_date": "2016-01-02",
+    "available_days": [
+      "Monday",
+      "Thursday",
+      "Saturday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1114,
+    "status": "Active",
+    "blood_group": "AB+",
+    "emergency_contact": "01874203917",
+    "chambers": [
+      {
+        "chamber_id": "C1147A",
+        "location": "Barishal Modern Hospital",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Wednesday",
+          "Sunday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1147B",
+        "location": "Khulna Modern Hospital",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2028",
+    "full_name": "Dr. Nusrat Jahan",
+    "gender": "Female",
+    "date_of_birth": "1973-12-10",
+    "specialization": "Urology",
+    "email": "dr.nusratjahan@hospital.com",
+    "phone": "01713361360",
+    "nid_or_passport": "1980802913548",
+    "address": "Shariatpur, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCj0x8uFQteP5n5h5I24hQF1xHl9cOwGU7g&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 10,
+    "joining_date": "2018-10-09",
+    "available_days": [
+      "Saturday",
+      "Tuesday",
+      "Sunday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1013,
+    "status": "Active",
+    "blood_group": "A+",
+    "emergency_contact": "01878680692",
+    "chambers": [
+      {
+        "chamber_id": "C1148A",
+        "location": "Rajshahi City Clinic",
+        "address": "Shariatpur, Bangladesh",
+        "available_days": [
+          "Saturday",
+          "Tuesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1148B",
+        "location": "Rajshahi City Clinic",
+        "address": "Shariatpur, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2029",
+    "full_name": "Dr. Sumon Chowdhury",
+    "gender": "Female",
+    "date_of_birth": "1974-05-22",
+    "specialization": "Gastroenterology",
+    "email": "dr.sumonchowdhury@hospital.com",
+    "phone": "01712339335",
+    "nid_or_passport": "1986527664517",
+    "address": "Rajshahi, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmJFwaxsVK_9IU379ojy7G33lO6kZX8FApg&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 18,
+    "joining_date": "2014-05-15",
+    "available_days": [
+      "Tuesday",
+      "Thursday",
+      "Wednesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 773,
+    "status": "Active",
+    "blood_group": "B+",
+    "emergency_contact": "01875820969",
+    "chambers": [
+      {
+        "chamber_id": "C1149A",
+        "location": "Shariatpur Central Clinic",
+        "address": "Rajshahi, Bangladesh",
+        "available_days": [
+          "Tuesday",
+          "Monday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1149B",
+        "location": "Rajshahi Medical College Hospital",
+        "address": "Rajshahi, Bangladesh",
+        "available_days": [
+          "Monday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2030",
+    "full_name": "Dr. Mousumi Akter",
+    "gender": "Male",
+    "date_of_birth": "1976-01-19",
+    "specialization": "Oncology",
+    "email": "dr.mousumiakter@hospital.com",
+    "phone": "01718932674",
+    "nid_or_passport": "1985420433145",
+    "address": "Khulna, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCj0x8uFQteP5n5h5I24hQF1xHl9cOwGU7g&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 5,
+    "joining_date": "2019-07-17",
+    "available_days": [
+      "Saturday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1282,
+    "status": "Active",
+    "blood_group": "B+",
+    "emergency_contact": "01875527203",
+    "chambers": [
+      {
+        "chamber_id": "C1150A",
+        "location": "Dhaka Central Clinic",
+        "address": "Khulna, Bangladesh",
+        "available_days": [
+          "Tuesday",
+          "Sunday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1150B",
+        "location": "Barishal Modern Hospital",
+        "address": "Khulna, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2031",
+    "full_name": "Dr. Rashedul Islam",
+    "gender": "Male",
+    "date_of_birth": "1971-07-18",
+    "specialization": "Orthopedics",
+    "email": "dr.rashedulislam@hospital.com",
+    "phone": "01716590138",
+    "nid_or_passport": "1973747956128",
+    "address": "Dhaka, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCj0x8uFQteP5n5h5I24hQF1xHl9cOwGU7g&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 8,
+    "joining_date": "2021-12-10",
+    "available_days": [
+      "Sunday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1081,
+    "status": "Active",
+    "blood_group": "B+",
+    "emergency_contact": "01873784787",
+    "chambers": [
+      {
+        "chamber_id": "C1151A",
+        "location": "Shariatpur Central Clinic",
+        "address": "Dhaka, Bangladesh",
+        "available_days": [
+          "Sunday",
+          "Monday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1151B",
+        "location": "Shariatpur Medical College Hospital",
+        "address": "Dhaka, Bangladesh",
+        "available_days": [
+          "Saturday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2032",
+    "full_name": "Dr. Sumon Chowdhury",
+    "gender": "Male",
+    "date_of_birth": "1980-03-04",
+    "specialization": "Cardiology",
+    "email": "dr.sumonchowdhury@hospital.com",
+    "phone": "01713414913",
+    "nid_or_passport": "1994663557972",
+    "address": "Shariatpur, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPjrMK4f01BtTeeJyp4-tmiT4GBlgbqP5cQ&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 10,
+    "joining_date": "2011-01-07",
+    "available_days": [
+      "Thursday",
+      "Wednesday",
+      "Sunday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 865,
+    "status": "Active",
+    "blood_group": "B+",
+    "emergency_contact": "01876926427",
+    "chambers": [
+      {
+        "chamber_id": "C1152A",
+        "location": "Shariatpur Central Clinic",
+        "address": "Shariatpur, Bangladesh",
+        "available_days": [
+          "Monday",
+          "Wednesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1152B",
+        "location": "Barishal City Clinic",
+        "address": "Shariatpur, Bangladesh",
+        "available_days": [
+          "Tuesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2033",
+    "full_name": "Dr. Rubaiya Tasnim",
+    "gender": "Male",
+    "date_of_birth": "1986-10-20",
+    "specialization": "Cardiology",
+    "email": "dr.rubaiyatasnim@hospital.com",
+    "phone": "01713622349",
+    "nid_or_passport": "1991695978968",
+    "address": "Dhaka, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmJFwaxsVK_9IU379ojy7G33lO6kZX8FApg&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 7,
+    "joining_date": "2011-02-17",
+    "available_days": [
+      "Tuesday",
+      "Thursday",
+      "Monday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1165,
+    "status": "Active",
+    "blood_group": "AB+",
+    "emergency_contact": "01879025975",
+    "chambers": [
+      {
+        "chamber_id": "C1153A",
+        "location": "Sylhet City Clinic",
+        "address": "Dhaka, Bangladesh",
+        "available_days": [
+          "Sunday",
+          "Wednesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1153B",
+        "location": "Khulna City Clinic",
+        "address": "Dhaka, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2034",
+    "full_name": "Dr. Laila Sultana",
+    "gender": "Female",
+    "date_of_birth": "1977-12-27",
+    "specialization": "Urology",
+    "email": "dr.lailasultana@hospital.com",
+    "phone": "01718107143",
+    "nid_or_passport": "1979950067349",
+    "address": "Comilla, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPjrMK4f01BtTeeJyp4-tmiT4GBlgbqP5cQ&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 24,
+    "joining_date": "2014-07-08",
+    "available_days": [
+      "Tuesday",
+      "Sunday",
+      "Wednesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1307,
+    "status": "Active",
+    "blood_group": "A+",
+    "emergency_contact": "01873616739",
+    "chambers": [
+      {
+        "chamber_id": "C1154A",
+        "location": "Shariatpur General Hospital",
+        "address": "Comilla, Bangladesh",
+        "available_days": [
+          "Monday",
+          "Tuesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1154B",
+        "location": "Barishal City Clinic",
+        "address": "Comilla, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2035",
+    "full_name": "Dr. Sharmin Sultana",
+    "gender": "Male",
+    "date_of_birth": "1986-05-08",
+    "specialization": "Dermatology",
+    "email": "dr.sharminsultana@hospital.com",
+    "phone": "01714109021",
+    "nid_or_passport": "1982180412774",
+    "address": "Rangpur, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmJFwaxsVK_9IU379ojy7G33lO6kZX8FApg&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 6,
+    "joining_date": "2010-07-05",
+    "available_days": [
+      "Sunday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1385,
+    "status": "Active",
+    "blood_group": "O+",
+    "emergency_contact": "01873018136",
+    "chambers": [
+      {
+        "chamber_id": "C1155A",
+        "location": "Dhaka Medical College Hospital",
+        "address": "Rangpur, Bangladesh",
+        "available_days": [
+          "Wednesday",
+          "Sunday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1155B",
+        "location": "Chattogram Medical College Hospital",
+        "address": "Rangpur, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2036",
+    "full_name": "Dr. Rubaiya Tasnim",
+    "gender": "Female",
+    "date_of_birth": "1988-06-19",
+    "specialization": "ENT",
+    "email": "dr.rubaiyatasnim@hospital.com",
+    "phone": "01716789616",
+    "nid_or_passport": "1998745826327",
+    "address": "Sylhet, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmJFwaxsVK_9IU379ojy7G33lO6kZX8FApg&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 15,
+    "joining_date": "2019-07-21",
+    "available_days": [
+      "Thursday",
+      "Monday",
+      "Sunday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1030,
+    "status": "Active",
+    "blood_group": "B+",
+    "emergency_contact": "01876920591",
+    "chambers": [
+      {
+        "chamber_id": "C1156A",
+        "location": "Comilla Medical College Hospital",
+        "address": "Sylhet, Bangladesh",
+        "available_days": [
+          "Sunday",
+          "Saturday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1156B",
+        "location": "Shariatpur City Clinic",
+        "address": "Sylhet, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2037",
+    "full_name": "Dr. Sumaiya Parvin",
+    "gender": "Female",
+    "date_of_birth": "1975-04-09",
+    "specialization": "Orthopedics",
+    "email": "dr.sumaiyaparvin@hospital.com",
+    "phone": "01715611284",
+    "nid_or_passport": "1986343339350",
+    "address": "Comilla, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmJFwaxsVK_9IU379ojy7G33lO6kZX8FApg&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 10,
+    "joining_date": "2011-08-27",
+    "available_days": [
+      "Saturday",
+      "Wednesday",
+      "Monday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1479,
+    "status": "Active",
+    "blood_group": "O+",
+    "emergency_contact": "01872448548",
+    "chambers": [
+      {
+        "chamber_id": "C1157A",
+        "location": "Sylhet Medical College Hospital",
+        "address": "Comilla, Bangladesh",
+        "available_days": [
+          "Tuesday",
+          "Monday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1157B",
+        "location": "Shariatpur City Clinic",
+        "address": "Comilla, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2038",
+    "full_name": "Dr. Anisur Rahman",
+    "gender": "Female",
+    "date_of_birth": "1993-08-22",
+    "specialization": "Gastroenterology",
+    "email": "dr.anisurrahman@hospital.com",
+    "phone": "01716975868",
+    "nid_or_passport": "1971849328129",
+    "address": "Comilla, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPjrMK4f01BtTeeJyp4-tmiT4GBlgbqP5cQ&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 8,
+    "joining_date": "2020-05-20",
+    "available_days": [
+      "Sunday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 895,
+    "status": "Active",
+    "blood_group": "O+",
+    "emergency_contact": "01875346944",
+    "chambers": [
+      {
+        "chamber_id": "C1158A",
+        "location": "Sylhet General Hospital",
+        "address": "Comilla, Bangladesh",
+        "available_days": [
+          "Tuesday",
+          "Sunday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1158B",
+        "location": "Chattogram Central Clinic",
+        "address": "Comilla, Bangladesh",
+        "available_days": [
+          "Monday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2039",
+    "full_name": "Dr. Rashedul Islam",
+    "gender": "Female",
+    "date_of_birth": "1975-03-06",
+    "specialization": "Orthopedics",
+    "email": "dr.rashedulislam@hospital.com",
+    "phone": "01719541527",
+    "nid_or_passport": "1986170880925",
+    "address": "Dhaka, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPjrMK4f01BtTeeJyp4-tmiT4GBlgbqP5cQ&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 13,
+    "joining_date": "2019-01-11",
+    "available_days": [
+      "Wednesday",
+      "Thursday",
+      "Sunday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 843,
+    "status": "Active",
+    "blood_group": "O+",
+    "emergency_contact": "01878552861",
+    "chambers": [
+      {
+        "chamber_id": "C1159A",
+        "location": "Shariatpur General Hospital",
+        "address": "Dhaka, Bangladesh",
+        "available_days": [
+          "Wednesday",
+          "Tuesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1159B",
+        "location": "Rajshahi General Hospital",
+        "address": "Dhaka, Bangladesh",
+        "available_days": [
+          "Saturday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2040",
+    "full_name": "Dr. Arman Siddique",
+    "gender": "Female",
+    "date_of_birth": "1992-12-24",
+    "specialization": "Gynecology",
+    "email": "dr.armansiddique@hospital.com",
+    "phone": "01713812472",
+    "nid_or_passport": "1998304237279",
+    "address": "Khulna, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCj0x8uFQteP5n5h5I24hQF1xHl9cOwGU7g&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 8,
+    "joining_date": "2020-09-16",
+    "available_days": [
+      "Sunday",
+      "Monday",
+      "Saturday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 817,
+    "status": "Active",
+    "blood_group": "O+",
+    "emergency_contact": "01877811839",
+    "chambers": [
+      {
+        "chamber_id": "C1160A",
+        "location": "Dhaka Central Clinic",
+        "address": "Khulna, Bangladesh",
+        "available_days": [
+          "Saturday",
+          "Wednesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1160B",
+        "location": "Rajshahi General Hospital",
+        "address": "Khulna, Bangladesh",
+        "available_days": [
+          "Saturday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2041",
+    "full_name": "Dr. Tania Afrin",
+    "gender": "Male",
+    "date_of_birth": "1992-09-17",
+    "specialization": "Neurology",
+    "email": "dr.taniaafrin@hospital.com",
+    "phone": "01717223801",
+    "nid_or_passport": "1985652263620",
+    "address": "Comilla, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPjrMK4f01BtTeeJyp4-tmiT4GBlgbqP5cQ&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 22,
+    "joining_date": "2016-01-19",
+    "available_days": [
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1453,
+    "status": "Active",
+    "blood_group": "AB+",
+    "emergency_contact": "01874059441",
+    "chambers": [
+      {
+        "chamber_id": "C1161A",
+        "location": "Comilla Medical College Hospital",
+        "address": "Comilla, Bangladesh",
+        "available_days": [
+          "Sunday",
+          "Wednesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1161B",
+        "location": "Dhaka Medical College Hospital",
+        "address": "Comilla, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2042",
+    "full_name": "Dr. Mousumi Akter",
+    "gender": "Male",
+    "date_of_birth": "1977-08-23",
+    "specialization": "Oncology",
+    "email": "dr.mousumiakter@hospital.com",
+    "phone": "01711822055",
+    "nid_or_passport": "1992237239610",
+    "address": "Barishal, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmJFwaxsVK_9IU379ojy7G33lO6kZX8FApg&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 24,
+    "joining_date": "2011-05-08",
+    "available_days": [
+      "Sunday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1039,
+    "status": "Active",
+    "blood_group": "O+",
+    "emergency_contact": "01877035560",
+    "chambers": [
+      {
+        "chamber_id": "C1162A",
+        "location": "Chattogram City Clinic",
+        "address": "Barishal, Bangladesh",
+        "available_days": [
+          "Monday",
+          "Wednesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1162B",
+        "location": "Chattogram City Clinic",
+        "address": "Barishal, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2043",
+    "full_name": "Dr. Nadia Akter",
+    "gender": "Male",
+    "date_of_birth": "1980-10-05",
+    "specialization": "Orthopedics",
+    "email": "dr.nadiaakter@hospital.com",
+    "phone": "01715516053",
+    "nid_or_passport": "1994155557958",
+    "address": "Rajshahi, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPjrMK4f01BtTeeJyp4-tmiT4GBlgbqP5cQ&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 24,
+    "joining_date": "2012-11-03",
+    "available_days": [
+      "Sunday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1434,
+    "status": "Active",
+    "blood_group": "B+",
+    "emergency_contact": "01871222633",
+    "chambers": [
+      {
+        "chamber_id": "C1163A",
+        "location": "Barishal Modern Hospital",
+        "address": "Rajshahi, Bangladesh",
+        "available_days": [
+          "Saturday",
+          "Tuesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1163B",
+        "location": "Sylhet Medical College Hospital",
+        "address": "Rajshahi, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2044",
+    "full_name": "Dr. Omar Faruk",
+    "gender": "Male",
+    "date_of_birth": "1986-02-20",
+    "specialization": "Gynecology",
+    "email": "dr.omarfaruk@hospital.com",
+    "phone": "01716911946",
+    "nid_or_passport": "1985588336809",
+    "address": "Dhaka, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPjrMK4f01BtTeeJyp4-tmiT4GBlgbqP5cQ&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 25,
+    "joining_date": "2016-10-26",
+    "available_days": [
+      "Thursday",
+      "Saturday",
+      "Tuesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1196,
+    "status": "Active",
+    "blood_group": "A+",
+    "emergency_contact": "01877606679",
+    "chambers": [
+      {
+        "chamber_id": "C1164A",
+        "location": "Shariatpur Modern Hospital",
+        "address": "Dhaka, Bangladesh",
+        "available_days": [
+          "Tuesday",
+          "Wednesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1164B",
+        "location": "Shariatpur Medical College Hospital",
+        "address": "Dhaka, Bangladesh",
+        "available_days": [
+          "Monday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2045",
+    "full_name": "Dr. Tania Afrin",
+    "gender": "Female",
+    "date_of_birth": "1973-01-24",
+    "specialization": "ENT",
+    "email": "dr.taniaafrin@hospital.com",
+    "phone": "01719188171",
+    "nid_or_passport": "1999164058003",
+    "address": "Mymensingh, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCj0x8uFQteP5n5h5I24hQF1xHl9cOwGU7g&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 5,
+    "joining_date": "2012-03-25",
+    "available_days": [
+      "Saturday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1417,
+    "status": "Active",
+    "blood_group": "O+",
+    "emergency_contact": "01876310781",
+    "chambers": [
+      {
+        "chamber_id": "C1165A",
+        "location": "Chattogram Medical College Hospital",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Saturday",
+          "Sunday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1165B",
+        "location": "Barishal Medical College Hospital",
+        "address": "Mymensingh, Bangladesh",
+        "available_days": [
+          "Monday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2046",
+    "full_name": "Dr. Tanvir Alam",
+    "gender": "Female",
+    "date_of_birth": "1991-03-09",
+    "specialization": "Orthopedics",
+    "email": "dr.tanviralam@hospital.com",
+    "phone": "01711405842",
+    "nid_or_passport": "1973836803357",
+    "address": "Chattogram, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPjrMK4f01BtTeeJyp4-tmiT4GBlgbqP5cQ&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 9,
+    "joining_date": "2011-07-12",
+    "available_days": [
+      "Wednesday",
+      "Sunday",
+      "Monday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1461,
+    "status": "Active",
+    "blood_group": "O+",
+    "emergency_contact": "01877960226",
+    "chambers": [
+      {
+        "chamber_id": "C1166A",
+        "location": "Sylhet City Clinic",
+        "address": "Chattogram, Bangladesh",
+        "available_days": [
+          "Saturday",
+          "Monday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1166B",
+        "location": "Dhaka Modern Hospital",
+        "address": "Chattogram, Bangladesh",
+        "available_days": [
+          "Wednesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2047",
+    "full_name": "Dr. Tahmina Sultana",
+    "gender": "Male",
+    "date_of_birth": "1985-10-20",
+    "specialization": "Neurology",
+    "email": "dr.tahminasultana@hospital.com",
+    "phone": "01711563948",
+    "nid_or_passport": "1995033860840",
+    "address": "Shariatpur, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCj0x8uFQteP5n5h5I24hQF1xHl9cOwGU7g&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 23,
+    "joining_date": "2019-11-25",
+    "available_days": [
+      "Sunday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 821,
+    "status": "Active",
+    "blood_group": "AB+",
+    "emergency_contact": "01877521493",
+    "chambers": [
+      {
+        "chamber_id": "C1167A",
+        "location": "Dhaka City Clinic",
+        "address": "Shariatpur, Bangladesh",
+        "available_days": [
+          "Monday",
+          "Saturday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1167B",
+        "location": "Barishal Central Clinic",
+        "address": "Shariatpur, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2048",
+    "full_name": "Dr. Rashedul Islam",
+    "gender": "Male",
+    "date_of_birth": "1993-06-24",
+    "specialization": "Gastroenterology",
+    "email": "dr.rashedulislam@hospital.com",
+    "phone": "01714605933",
+    "nid_or_passport": "1971128555236",
+    "address": "Khulna, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPPjrMK4f01BtTeeJyp4-tmiT4GBlgbqP5cQ&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 21,
+    "joining_date": "2015-12-23",
+    "available_days": [
+      "Monday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1065,
+    "status": "Active",
+    "blood_group": "AB+",
+    "emergency_contact": "01871821969",
+    "chambers": [
+      {
+        "chamber_id": "C1168A",
+        "location": "Shariatpur Modern Hospital",
+        "address": "Khulna, Bangladesh",
+        "available_days": [
+          "Wednesday",
+          "Monday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1168B",
+        "location": "Barishal Medical College Hospital",
+        "address": "Khulna, Bangladesh",
+        "available_days": [
+          "Tuesday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2049",
+    "full_name": "Dr. Nusrat Jahan",
+    "gender": "Female",
+    "date_of_birth": "1982-10-28",
+    "specialization": "Orthopedics",
+    "email": "dr.nusratjahan@hospital.com",
+    "phone": "01711060185",
+    "nid_or_passport": "1989182179574",
+    "address": "Rajshahi, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCj0x8uFQteP5n5h5I24hQF1xHl9cOwGU7g&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 11,
+    "joining_date": "2015-09-22",
+    "available_days": [
+      "Monday",
+      "Thursday",
+      "Saturday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 987,
+    "status": "Active",
+    "blood_group": "O+",
+    "emergency_contact": "01871277032",
+    "chambers": [
+      {
+        "chamber_id": "C1169A",
+        "location": "Sylhet Central Clinic",
+        "address": "Rajshahi, Bangladesh",
+        "available_days": [
+          "Wednesday",
+          "Saturday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1169B",
+        "location": "Rangpur Modern Hospital",
+        "address": "Rajshahi, Bangladesh",
+        "available_days": [
+          "Sunday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "doctor_id": "D2050",
+    "full_name": "Dr. Mehnaz Chowdhury",
+    "gender": "Male",
+    "date_of_birth": "1972-05-03",
+    "specialization": "ENT",
+    "email": "dr.mehnazchowdhury@hospital.com",
+    "phone": "01717049608",
+    "nid_or_passport": "1995115241343",
+    "address": "Rajshahi, Bangladesh",
+    "profile_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmJFwaxsVK_9IU379ojy7G33lO6kZX8FApg&s",
+    "qualifications": [
+      "MBBS",
+      "FCPS",
+      "MD"
+    ],
+    "years_of_experience": 5,
+    "joining_date": "2010-09-10",
+    "available_days": [
+      "Wednesday",
+      "Monday",
+      "Sunday"
+    ],
+    "available_time": "9:00 AM - 2:00 PM",
+    "consultation_fee": 1102,
+    "status": "Active",
+    "blood_group": "A+",
+    "emergency_contact": "01875010451",
+    "chambers": [
+      {
+        "chamber_id": "C1170A",
+        "location": "Rangpur City Clinic",
+        "address": "Rajshahi, Bangladesh",
+        "available_days": [
+          "Monday",
+          "Tuesday"
+        ],
+        "available_times": [
+          "9:00 AM",
+          "9:30 AM",
+          "10:00 AM"
+        ]
+      },
+      {
+        "chamber_id": "C1170B",
+        "location": "Rajshahi General Hospital",
+        "address": "Rajshahi, Bangladesh",
+        "available_days": [
+          "Monday"
+        ],
+        "available_times": [
+          "4:00 PM",
+          "4:30 PM",
+          "5:00 PM"
+        ]
+      }
+    ]
+  }
+]

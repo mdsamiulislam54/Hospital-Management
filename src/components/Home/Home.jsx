@@ -5,6 +5,7 @@ import DashboardSummary from "../DashbordSummary/DashboardSummary";
 import Faq from "../Faq/Faq";
 
 import NewsLetter from "../NewsLetter/NewsLetter";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 const Home = () => {
   return (
@@ -23,7 +24,7 @@ const Home = () => {
         <section className="px-4">
           <Faq />
         </section>
-        
+       
 
         {/* <NewsLetter/> */}
       </section>

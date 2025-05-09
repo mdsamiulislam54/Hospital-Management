@@ -1,4 +1,4 @@
-import { StrictMode, useEffect } from 'react'
+import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 
@@ -12,6 +12,8 @@ import Login from './components/UserAuthentication/Login.jsx'
 import Registration from './components/UserAuthentication/Registration.jsx'
 
 import App from './App'
+import Doctor from './components/DoctorList/Doctor.jsx'
+import PrivateRoute from './components/PrivateRoute/PrivateRoute.jsx'
 
 
 const router = createBrowserRouter([
@@ -33,6 +35,10 @@ const router = createBrowserRouter([
       {
         path:'registration',
         element:<Registration/>
+      },
+      {
+        path:"doctorlist",
+        element:<PrivateRoute><Doctor/></PrivateRoute>
       }
     ]
   }

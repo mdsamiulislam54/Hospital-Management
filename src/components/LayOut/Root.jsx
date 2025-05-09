@@ -22,7 +22,7 @@ const Root = () => {
           animate={{x:isOpen ? -350:0}}
           transition={{duration:0.3, ease: "easeInOut"}}
           className={`w-70  xl:block bg-blue-500/85 h-full overflow-y-auto  z-100 ${
-            isOpen ? "hidden" : " absolute z-0"
+            isOpen ? "hidden" : "   absolute z-0"
           } `}
         >
           <Sidebar />

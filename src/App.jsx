@@ -1,4 +1,4 @@
-import {setLoading, setUser} from './Redux/Store/ReduxSlice/UserSlice'
+import { setUser} from './Redux/Store/ReduxSlice/UserSlice'
 import { onAuthStateChanged } from 'firebase/auth'
 import auth from './firebase-init.js'
 import './App.css'
