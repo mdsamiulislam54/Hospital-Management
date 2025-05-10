@@ -10,7 +10,7 @@ const Appointment = () => {
         dispatch(removeBooking({doctor_id:doctor_id}))
     }
   return (
-    <div className="min-h-screen xl:ml-64 p-6 bg-gray-50">
+    <div className="h-screen xl:ml-64 p-6 bg-gray-50 overflow-y-scroll">
       <h2 className="text-3xl font-bold mb-6 text-gray-800">My Appointments</h2>
 
       {doctor && doctor.length > 0 ? (

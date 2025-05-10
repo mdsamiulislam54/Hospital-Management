@@ -1,11 +1,56 @@
-import React from 'react'
-
+import React from "react";
+import { useSelector } from "react-redux";
+import {
+  ComposedChart,
+  Line,
+  Area,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  Scatter,
+  ResponsiveContainer,
+} from "recharts";
 const Dashboard = () => {
-  return (
-    <div className='ml-63 px-4 h-screen overflow-y-scroll'>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptates adipisci illum nemo enim itaque quaerat suscipit dolor recusandae, dignissimos corrupti ipsum dolore quasi nostrum ut in laudantium repellendus sunt quae distinctio nobis voluptate? Mollitia hic a aperiam at eos est numquam? Commodi voluptatibus delectus ipsum enim dolores quaerat esse vel, cumque repudiandae ad odit dolor, eligendi blanditiis quis veritatis quasi et cupiditate provident at doloremque. Corrupti adipisci reprehenderit saepe laborum veniam eum fuga eos nisi optio asperiores suscipit libero eveniet cupiditate quasi, harum repellendus eligendi illo. Magnam sint explicabo corporis autem tenetur commodi, at reiciendis sapiente, atque similique consequuntur distinctio dolor neque iste repellendus asperiores, eligendi dicta expedita doloremque nulla quia dolore libero nostrum molestias! Assumenda nostrum nemo consequatur veniam omnis nesciunt ab expedita explicabo minima dolorem maiores, perferendis voluptas, maxime, provident ipsam quam ipsum! Sed tenetur asperiores maxime adipisci iure odit saepe dolore, quidem numquam autem consectetur, vel harum dicta. Cupiditate blanditiis excepturi, tempore impedit atque nesciunt, dolores iure repudiandae soluta debitis nihil quam placeat voluptatibus in. Voluptatem nesciunt ullam provident, enim iure voluptas suscipit corrupti facere praesentium illum alias accusantium, repellendus a voluptates consectetur. Adipisci nesciunt, iste totam exercitationem cupiditate quidem? Dolor placeat eaque id, corrupti enim aliquam nihil ab incidunt magni dolores, sequi qui nostrum accusamus? Eius fugiat minus quae tenetur, ducimus, ab iusto perspiciatis autem cupiditate a illo architecto sequi sint veniam facere maxime laborum. Expedita at, eum maiores odit nesciunt obcaecati deleniti sed perspiciatis veritatis eius nobis perferendis voluptatibus earum, impedit fugiat hic reprehenderit est dicta vel exercitationem omnis. Ullam dolorem ea eos laborum facilis assumenda? Facere harum similique earum perferendis sequi sit hic deleniti doloribus officiis aliquid iste tempora aliquam quidem cum placeat, eos quas culpa at ut incidunt libero nobis possimus dolore. Illo necessitatibus quis vitae eligendi, quisquam unde inventore saepe itaque soluta voluptate nisi mollitia reprehenderit doloremque maiores aspernatur sit voluptatum pariatur. Corporis perspiciatis sed minus odio quia deleniti sint deserunt assumenda inventore facere, ab maiores. Dolore quam cum quidem tenetur et eius autem explicabo, aspernatur, laudantium, placeat consequuntur ex! Natus, sit! Magnam, molestiae obcaecati quia quisquam incidunt quaerat iusto! Accusantium amet asperiores reiciendis provident explicabo iusto non adipisci corrupti! Quisquam pariatur sint id obcaecati nesciunt enim architecto voluptate, veritatis, corporis nam sit consectetur consequatur debitis accusamus fugit exercitationem modi temporibus est ad deserunt impedit incidunt? Iste, sit eius praesentium at consequuntur vel, animi adipisci atque quisquam quam aliquam illo. Aliquam nihil quos, beatae quisquam ratione nam deleniti modi suscipit magnam rem. Alias ratione numquam iste facere possimus iure ea porro! Minima aut, similique commodi assumenda officia, quisquam aperiam deserunt tempora perspiciatis quo laborum distinctio fuga, laudantium provident. In quo dolore neque! Nulla, nemo beatae vero explicabo quis aliquid voluptas atque porro quas impedit at sint expedita veniam dolore cum dolor, error, eius aut officiis maiores quam? Earum libero rerum quod sunt laborum, consequuntur reprehenderit necessitatibus ut amet at, sequi quam. Quis quibusdam architecto a possimus sint ipsum mollitia, itaque quos amet totam temporibus quod, accusantium non numquam accusamus error in sequi neque magni inventore molestias dolores recusandae. Autem ad quasi veritatis? Impedit reprehenderit id nulla quidem velit excepturi dolore voluptatibus sint unde fugit praesentium temporibus amet dolores, earum blanditiis. Magni, modi repudiandae eos hic alias, officia nostrum temporibus aliquid atque aut earum? Porro autem quos libero quas, qui laboriosam voluptates? Iste commodi sit, libero tempora dolores nisi quo itaque, sint debitis veritatis facere animi quos possimus nihil minus blanditiis repellendus sapiente non quae! Aut officia, iste modi quam rerum repudiandae assumenda deleniti dolore animi excepturi quis, reiciendis deserunt, voluptatem dolorum placeat. Fugit a veniam, quas esse facere cupiditate asperiores eaque labore provident aliquid dolores perferendis ipsam nemo, non, dignissimos dicta nostrum. Laudantium deserunt fugit, obcaecati asperiores voluptates voluptatum blanditiis provident cum molestiae saepe placeat ipsam ut consectetur autem voluptate! Quis unde libero dolor aliquam ipsam blanditiis veniam quasi ex, maxime, quidem perspiciatis sapiente error, quod similique nesciunt. Natus nihil beatae necessitatibus esse! Nulla mollitia magni neque harum, commodi doloribus veritatis quidem, laboriosam consequuntur quis omnis laudantium adipisci, temporibus eligendi recusandae illo dolor voluptatem beatae delectus est magnam sapiente. Reprehenderit mollitia labore voluptates ea dolor itaque nesciunt blanditiis qui commodi similique magni, ducimus et dolorum veritatis, nobis quia, esse quae aliquid! Culpa eos sed ex expedita architecto nesciunt, eligendi ipsum quidem ipsam, quasi unde voluptas suscipit asperiores, est id debitis temporibus cum? Similique nam explicabo cumque pariatur sed, cupiditate hic nemo molestias veritatis quidem aliquam, ipsum reprehenderit adipisci assumenda laboriosam dicta? Ab ea commodi nobis, ratione quidem ut numquam eius eaque sed dicta! Modi esse accusantium iste ducimus similique ipsa optio atque unde suscipit neque, quam, ipsum placeat sit labore, incidunt qui quaerat blanditiis molestias? Temporibus et veritatis non deserunt doloremque repellendus culpa possimus. Velit, possimus consequuntur soluta veniam numquam error sequi expedita nostrum et, debitis aliquam. Neque maxime vitae natus, dicta iure aliquam excepturi, possimus officiis alias dignissimos ipsam ratione sit at harum, eligendi amet eaque. Deserunt veritatis consequatur minus debitis ducimus suscipit libero vitae fugit nisi? Soluta, corrupti ut. Neque eius expedita ex! Veniam id cupiditate debitis itaque corporis magni ratione iusto labore vel, architecto in hic nobis incidunt? Doloribus delectus voluptate itaque cupiditate. Accusantium molestias dicta sunt minima sequi laborum modi tempora illo nemo perferendis officiis, doloremque laudantium deserunt ipsam recusandae, incidunt officia veritatis optio voluptas architecto animi, molestiae libero aspernatur? Error molestias laudantium, perspiciatis, id et ad est repudiandae nemo perferendis repellendus non! Tempora laboriosam natus a deleniti autem unde distinctio veritatis eum reprehenderit molestiae. Officia, animi sed autem obcaecati qui distinctio ipsam fugit, aperiam dignissimos nam totam, porro dolorum inventore vel maiores expedita facere. Doloremque impedit qui esse, asperiores vitae voluptate nam assumenda corporis maxime alias aperiam reiciendis. Facere voluptas veniam assumenda laudantium impedit totam ullam, vitae molestiae excepturi beatae fugiat tenetur quas ratione quibusdam eum odio nobis pariatur magnam tempora doloremque. Aliquam possimus unde dolores exercitationem doloremque quos illo ipsum beatae mollitia officiis laudantium, fuga ab aliquid delectus ea tempora deleniti dignissimos? Doloremque, est eum blanditiis voluptates nam sapiente nostrum. Numquam esse illo rerum tempore!
-    </div>
-  )
-}
+  const doctor = useSelector((state) => state.doctor.doctor);
 
-export default Dashboard
+
+  const chartData = doctor.map((item,index ) => ({
+    name: item.doctor.full_name || `Doctor ${index + 1}`,
+    fee: item.doctor.consultation_fee,
+   
+  }));
+  console.log(  chartData)
+  return (
+    <div className="xl:ml-63 px-4 h-screen overflow-y-scroll bg-white">
+      <h4 className="text-3xl font-bold my-4 text-center">Total Appointment</h4>
+      <ResponsiveContainer width="100%" height="100%">
+        <ComposedChart
+          width={500}
+          height={400}
+          data={chartData}
+          margin={{
+            top: 20,
+            right: 20,
+            bottom: 20,
+            left: 20,
+          }}
+        >
+          <CartesianGrid stroke="#f5f5f5" />
+          <XAxis dataKey="name"  />
+          <YAxis dataKey='' />
+          <Tooltip />
+          <Legend />
+          <Area type="monotone" dataKey="fee" fill="#8884d8" stroke="#8884d8" />
+          <Bar dataKey="fee" barSize={20} fill="#413ea0" />
+          <Line type="monotone" dataKey="fee" stroke="#ff7300" />
+          <Scatter dataKey="fee" fill="red" />
+        </ComposedChart>
+      </ResponsiveContainer>
+    </div>
+  );
+};
+
+export default Dashboard;

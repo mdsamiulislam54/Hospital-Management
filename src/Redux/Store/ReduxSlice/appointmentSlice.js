@@ -6,7 +6,7 @@ const loadStateFromLocalStorage = () => {
   }
   return {
     doctor: [],
-    status: true,
+    status: false,
   };
 };
 const appointment = createSlice({
