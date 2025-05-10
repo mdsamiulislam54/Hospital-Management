@@ -14,6 +14,9 @@ import Registration from './components/UserAuthentication/Registration.jsx'
 import App from './App'
 import Doctor from './components/DoctorList/Doctor.jsx'
 import PrivateRoute from './components/PrivateRoute/PrivateRoute.jsx'
+import DoctorProfile from './components/DoctorProfile/DoctorProfile.jsx'
+import Appintment from './components/Appointment/Appintment.jsx'
+import Appointment from './components/Appointment/Appintment.jsx'
 
 
 const router = createBrowserRouter([
@@ -39,6 +42,16 @@ const router = createBrowserRouter([
       {
         path:"doctorlist",
         element:<PrivateRoute><Doctor/></PrivateRoute>
+      },
+      {
+        path:'doctorprofile/:id',
+        
+        element:<DoctorProfile/>
+
+      },
+      {
+        path:'appointment',
+        element:<Appointment/>
       }
     ]
   }

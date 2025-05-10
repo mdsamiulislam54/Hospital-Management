@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router";
 
 const Doctor = () => {
   const [doctor, setDoctor] = useState([]);
   const [filteredDoctors, setFilteredDoctors] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [doctorPerPage, setDoctorPerPage] = useState(6);
+  
   useEffect(() => {
     const f = async () => {
       const r = await fetch("/doctors_bd_named_data.json");
@@ -118,9 +120,9 @@ const Doctor = () => {
                   {item.address}
                 </p>
                 <div className="text-center">
-                  <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition">
+                  <Link to={`/doctorprofile/${item.doctor_id}`} className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition">
                     View Profile
-                  </button>
+                  </Link>
                 </div>
               </div>
             ))}
